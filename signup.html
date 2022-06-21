@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+      body
+{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+
+}
+
+.login-box{
+    width: 380px;
+    height: 600px;
+    background-color: #fff;
+    color: #000;
+  top: 1.25%;
+    left: 58%;
+    position:absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 10px 10px 5px lightblue;
+
+   border-radius: 6px;
+   /* text-align: center; */
+   
+    
+}
+.login-box input
+{
+   text-align: center;
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #099fd5;
+}
+p{
+    color: #099fd5;
+    font-weight: bold;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]{
+  
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.554);
+  
+    
+    height: 20px;
+    
+}
+.login-box input[type="button"]
+ {
+     WIDTH: 30%;
+     border: none;
+     outline: none;
+     height: 40px;
+     background: #099ed5	;
+     
+     color: #fff;
+     font-size: 18px;
+     border-radius: 20px;
+    margin-left: 35%;
+  
+     
+ }
+ a{
+color:#099fd5 ;
+ }
+ section{
+     margin-top: 6%;
+     margin-left: 5%;
+ }
+.dont{
+    line-height: 40px;
+}
+.sign{
+    line-height: 75px;
+}
+img
+{
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 5px;
+
+}
+    </style>
+</head>
+<body>
+    <form action="/signupauth" style="border:1px solid #ccc" method="post">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="Name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name" required>
+          <br>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+      <br>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <br>
+      
+ 
+            
+           <a href="/"><button type="button" class="cancelbtn">Cancel</button></a>
+            <button type="submit" class="signupbtn">Sign Up</button>
+        
+        </div>
+      </form>
+</body>
+</html>

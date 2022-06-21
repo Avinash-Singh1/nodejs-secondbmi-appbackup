@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   padding: 0 10px;
+   margin-top: 0%;
+   background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+
+}
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #ffff;
+    margin: 10px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px;
+    margin-top: 0%;
+}
+p{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+   color:  rgb(2, 2, 63);
+   margin-top: -4%;
+  
+}
+.wrapper .form{
+    max-width: 100%;
+}
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .form .input_field label{
+    width: 200px;
+    color: rgb(2, 2, 63);
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapper .form .input_field .input ,
+.wrapper .form .input_field .textarea{
+    width: 100%;
+    outline:none;
+    border: 1px solid rgb(4, 17, 160);
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.wrapper .form .input_field .custom_selection{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+.wrapper .form .input_field .custom_selection select{
+    
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(4, 17, 160);
+    color:  rgb(2, 2, 63);
+}
+
+
+.wrapper .form .input_field .textarea{
+    border: 1px solid rgb(4, 17, 160);
+}
+
+    
+    .ht-wt label{
+       
+        display: flex;
+        justify-content: space-between;
+        color: rgb(2, 2, 63); 
+        font-size: 14px;
+      font-weight: bold;
+    
+   
+    }
+    .ht-wt input{
+      
+        width: 20%;
+        outline:none;
+        border: 1px solid rgb(4, 17, 160);
+        font-size: 15px;
+        padding: 2px;
+        transition: all 0.3s ease;
+        border-radius: 4px;
+        
+        
+    }
+    .ht-wt ,.ht{
+        display: flex;
+    
+        
+       
+    }
+    
+    .ht-wt ,.wt{
+        display: flex;
+        
+    }
+    .btn input[type="button"]{
+        background: #099ed5;
+        color: #ffff;
+       padding: 5px;
+        border-radius: 10px;
+       font-size: 18px;
+       outline: none;
+       border: none;
+     
+    }
+    
+    .ht-wt{
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    ::placeholder{
+ font-size: 12px;
+        color: rgb(2, 2, 63);
+    }
+    
+    
+    .wt1{
+        width: 220px;
+        margin-left: 100px;
+        
+    }
+   
+  .boxing ,.input1 {
+        width: 60px;
+        padding: 8px 10px;
+       margin-left: 100px;
+       margin-bottom: 5px;
+      
+    }
+    .boxing ,.input2 {
+        width: 60px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        padding: 8px 10px;
+      
+    }
+    
+    .boxing ,.input3 {
+        width: 50px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        padding: 8px 10px;
+       
+        
+    }
+   .boxing{
+       display: flex;
+      
+       
+     }
+     .het{
+         margin-left: 50px;
+         font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color:  rgb(2, 2, 63);
+}
+        
+
+     .wet{
+       margin-left: -30px; 
+       margin-top: 10px;
+       font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:  rgb(2, 2, 63);
+}
+.age-sex{
+    display: flex;
+}
+      
+.list
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.btn
+{
+    font-size: 16px;
+    border-radius: 5px;
+        border: 5px solid rgb(34, 111, 178);
+        background-color:rgb(34, 111, 178);
+}
+.btn1
+{
+    font-size: 16px;
+    border-radius: 5px;
+    border: 5px solid rgb(34, 111, 178);
+    background-color:rgb(34, 111, 178);
+}
+
+.heading
+{
+  background-color: red;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  font-size: larger;
+}

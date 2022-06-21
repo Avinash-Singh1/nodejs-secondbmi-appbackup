@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Login</title>
+        <!-- the form awesome library is used to add icons to our form -->
+		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"> -->
+        <!-- include the stylesheet file -->
+      <style>
+		body
+{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+
+}
+
+.login-box{
+    width: 380px;
+    height: 600px;
+    background-color: #fff;
+    color: #000;
+  top: 1.25%;
+    left: 58%;
+    position:absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 10px 10px 5px lightblue;
+
+   border-radius: 6px;
+   /* text-align: center; */
+   
+    
+}
+.login-box input
+{
+   text-align: center;
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #099fd5;
+}
+p{
+    color: #099fd5;
+    font-weight: bold;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]{
+  
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.554);
+  
+    
+    height: 20px;
+    
+}
+.login-box input[type="button"]
+ {
+     WIDTH: 30%;
+     border: none;
+     outline: none;
+     height: 40px;
+     background: #099ed5	;
+     
+     color: #fff;
+     font-size: 18px;
+     border-radius: 20px;
+    margin-left: 35%;
+  
+     
+ }
+ a{
+color:#099fd5 ;
+ }
+ section{
+     margin-top: 6%;
+     margin-left: 5%;
+ }
+.dont{
+    line-height: 40px;
+}
+.sign{
+    line-height: 75px;
+}
+img
+{
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 5px;
+
+}
+	  </style>
+	</head>
+	<body>
+		<!-- <div class="login">
+			<h1>Login</h1>
+			<form action="/auth" method="post">
+				<label for="username">
+					font awesome icon
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
+			</form>
+		</div> -->
+		<section>
+			<div class="imgbox">
+				<img src="diet4.jpg" alt="error"  />
+			   
+		
+			</div>
+		</section>
+	
+
+
+
+		<div class="login-box">
+
+		
+			<h1>Sign In</h1>
+			<form action="/auth" method="post">
+				<p>User name</p>
+				<input id="email" type="text" name="username" placeholder="Enter Your UserName">
+				
+				<p>Password</p>
+				<input id="password" type="password" name="password" placeholder="Enter password"><br>
+				<div class="sign">
+				<!-- <a href="questionire.html"> -->
+				
+				<input type="submit" value="Sign In"><br>
+			
+				 <!-- </a> -->
+	</div>
+				<div class="dont">
+				<a href="/signup">Don't have an Account?</a>
+			</div>
+			</form>
+			
+		</div>
+	</body>
+</html>
