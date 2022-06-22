@@ -1,11 +1,39 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Login</title>
+    <!-- <link rel="stylesheet" href="/stylesheets/style.css"> -->
+    <link rel="stylesheet" href="/stylesheets/login.css">
+
+ 
+	</head>
+	<body>
+		<section>
+			<div class="imgbox">
+				<img src="/images/diet4.jpg" alt="error"  />
+			   
+		
+			</div>
+		</section>
+		<div class="login-box">
+			<h1>Sign In</h1>
+			<form action="/login/auth" method="post">
+				<p>User name</p>
+				<input id="email" type="text" name="username" placeholder="Enter Your UserName">
+				
+				<p>Password</p>
+				<input id="password" type="password" name="password" placeholder="Enter password"><br>
+				<div class="sign">
+				
+				<input type="submit" value="Sign In"><br>
+	</div>
+				<div class="dont">
+				<a href="/signup">Don't have an Account?</a>
+			</div>
+			</form>
+			
+		</div>
+	</body>
 </html>

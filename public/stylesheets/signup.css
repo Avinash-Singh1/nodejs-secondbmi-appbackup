@@ -1,0 +1,75 @@
+/* 
+
+.login-box{
+    width: 380px;
+    height: 600px;
+    background-color: #fff;
+    color: #000;
+  top: 1.25%;
+    left: 58%;
+    position:absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+   
+   
+    
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #099fd5;
+}
+
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"],input[type="User Name"]{
+  
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.554);
+    
+    height: 10px;
+    
+}
+.login-box input[type="submit"]
+ {
+     border: none;
+     outline: none;
+     height: 50px;
+     background: 	#099ed5;
+     
+     color: #fff;
+     font-size: 18px;
+     border-radius: 20px;
+
+     }
+     .login-box input[type="submit"]:hover
+     {
+         cursor: pointer;
+         background: orangered;
+         
+
+     }
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 10px;
+    color: rgb(95, 41, 233);
+}
+.login-box a:hover{
+    color: darkorange;
+}
+
+p{
+    font-weight: bolder;
+    color: hsl(201, 92%, 44%);
+} */
+
+body{
+    background-color: rgb(0, 26, 255);
+}
